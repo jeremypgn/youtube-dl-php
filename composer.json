@@ -1,5 +1,5 @@
 {
-    "name": "norkunas/youtube-dl-php",
+    "name": "jeremypgn/youtube-dl-php",
     "type": "library",
     "description": "youtube-dl / yt-dlp wrapper for php",
     "keywords": ["youtube", "youtube-dl", "yt-dlp"],
@@ -8,6 +8,10 @@
         {
             "name": "Tomas Norkūnas",
             "email": "norkunas.tom@gmail.com"
+        },
+        {
+            "name": "Jeremy Pingeon",
+            "email": "contact@jeremypgn.com"
         }
     ],
     "require": {
