@@ -485,6 +485,11 @@ class Video extends AbstractEntity
         return $this->get('thumbnails', []);
     }
 
+    public function getThumbnail(): string
+    {
+        return $this->get('thumbnail', '');
+    }
+
     public function getAnnotations(): ?SimpleXMLElement
     {
         return $this->get('annotations');
